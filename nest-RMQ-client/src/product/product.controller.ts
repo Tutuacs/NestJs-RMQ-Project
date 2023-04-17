@@ -19,6 +19,7 @@ import { ClientProxy } from '@nestjs/microservices';
 
 @Controller('product')
 export class ProductController {
+
   constructor(
     private readonly productService: ProductService,
     @Inject('PRODUCT_SERVICE') private readonly client: ClientProxy,
@@ -66,7 +67,8 @@ export class ProductController {
   }
 
   @Post('mail')
-  async sendRmqmail(@Body() content: CreateMailDto) {
+  async sendRmqMail(@Body() content: CreateMailDto) {
     return this.client.emit('sendEmail', content);
   }
+  
 }
