@@ -29,6 +29,10 @@
 ## Installation
 
 ```bash
+$ cd Client/
+$ npm install
+$ cd ..
+$ cd Server/
 $ npm install
 ```
 
@@ -36,26 +40,22 @@ $ npm install
 
 ```bash
 # development
+$ cd Client/
+$ npm run start
+$ cd Server/
 $ npm run start
 
 # watch mode
+$ cd Client/
+$ npm run start:dev
+$ cd Server/
 $ npm run start:dev
 
 # production mode
+$ cd Client/
 $ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+$ cd Server/
+$ npm run start:prod
 ```
 
 ## Support
