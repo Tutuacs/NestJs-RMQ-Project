@@ -1,0 +1,1 @@
+{"version":3,"file":"create-mail.dto.js","sourceRoot":"","sources":["../../../src/product/validation/create-mail.dto.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,qDAAgE;AAIhE,MAAa,aAAa;CA0CzB;AAnCC;IAAC,IAAA,yBAAO,GAAE;IACT,IAAA,4BAAU,EAAC;QACV,OAAO,EAAE,gCAAgC;KAC1C,CAAC;;4CACY;AAEd;IAAC,IAAA,0BAAQ,GAAE;IACV,IAAA,4BAAU,EAAC;QACV,OAAO,EAAE,yCAAyC;KACnD,CAAC;;0CACU;AAjBd,sCA0CC"}
